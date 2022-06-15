@@ -1,0 +1,28 @@
+{
+  "name": "livrerecettes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "npx prettier --write '*.html'",
+    "eslint": "npx eslint '.'",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akctarus/Livrerecettes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akctarus/Livrerecettes/issues"
+  },
+  "homepage": "https://github.com/Akctarus/Livrerecettes#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-plugin-react": "^7.30.0",
+    "husky": "^8.0.1",
+    "prettier": "2.7.0"
+  }
+}
